@@ -15,8 +15,6 @@
 
 ![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/1-1.png)
 
-
-
 Файл kms.tf:
 ```hcl
 resource "yandex_kms_symmetric_key" "key-1" {
@@ -53,6 +51,7 @@ resource "yandex_cm_certificate" "website_cert" {
   }
 }
 ```
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Снимок%20экрана%202025-03-06%20в%2002.09.50.png)
 
 #### 2.2. Настройка статического сайта
 
@@ -92,6 +91,10 @@ resource "yandex_storage_bucket" "website" {
 Статический сайт с HTTPS  
 Валидный SSL-сертификат от Let's Encrypt  
 Безопасный доступ к контенту  
+
+
+
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Симетричные%20клучи.png)
 
 ![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Настроен%20HTTPS.png)
 
