@@ -1,0 +1,8 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+test.txt
+.well-known/
+CloudSecurity/
+terraform/provider.tf
