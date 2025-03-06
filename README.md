@@ -77,7 +77,6 @@ resource "yandex_storage_bucket" "website" {
 #### 2.3. Проверка работы HTTPS  
 
 Сертификат успешно выпущен:  
-
 Статус: ISSUED  
 Издатель: Let's Encrypt  
 Срок действия: до 04.06.2025  
