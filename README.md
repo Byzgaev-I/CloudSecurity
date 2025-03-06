@@ -13,6 +13,10 @@
 
 #### 1.1. Создание ключа в KMS
 
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/1-1.png)
+
+
+
 Файл kms.tf:
 ```hcl
 resource "yandex_kms_symmetric_key" "key-1" {
@@ -69,9 +73,29 @@ resource "yandex_storage_bucket" "website" {
 }
 ```
 
+#### 2.3. Проверка работы HTTPS  
 
+Сертификат успешно выпущен:  
 
+Статус: ISSUED  
+Издатель: Let's Encrypt  
+Срок действия: до 04.06.2025  
 
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Снимок%20экрСоздан%20и%20настроен%20ключ%20ана%202025-03-06%20в%2004.11.24.png)
+
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/2-3%20статус%20сертификата.png)
+
+#### Результаты  
+Созданная инфраструктура:
+
+Зашифрованный бакет с KMS ключом  
+Статический сайт с HTTPS  
+Валидный SSL-сертификат от Let's Encrypt  
+Безопасный доступ к контенту  
+
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Настроен%20HTTPS.png)
+
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Снимок%20экрана%202025-03-06%20в%2003.56.09.png) 
 
 
 
