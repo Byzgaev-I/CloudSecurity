@@ -15,6 +15,8 @@
 
 ![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/1-1.png)
 
+![image](https://github.com/Byzgaev-I/CloudSecurity/blob/main/Снимок%20экрана%202025-03-06%20в%2002.12.04.png)
+
 Файл kms.tf:
 ```hcl
 resource "yandex_kms_symmetric_key" "key-1" {
